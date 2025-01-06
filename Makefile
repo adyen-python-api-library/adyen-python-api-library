@@ -1,5 +1,5 @@
 install:
-	@pip install ./Adyen/adyenpy requests pycurl mock coveralls pylint pycodestyle
+	@pip install ./Adyen/adyenpy
 
 tests:
 	@python -m unittest discover -s test -p '*Test.py'
